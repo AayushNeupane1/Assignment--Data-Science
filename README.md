@@ -1,6 +1,6 @@
 # DS_Assignment
 
-This repository contains a comprehensive collection of Data Structures and Algorithms assignments, covering fundamental programming concepts, data structures implementations, and NumPy operations.
+This repository contains a comprehensive collection of Data Structures and Algorithms assignments, covering fundamental programming concepts, data structures implementations, and NumPy operations and contains all the class activities that was done while larning the ML Models, Pandas, and Advance Data Visualization.
 
 ## Structure
 
@@ -10,13 +10,5 @@ This repository contains a comprehensive collection of Data Structures and Algor
 4. **[NumPy](NumPy/README.md)** - NumPy array operations and numerical computing
 5. **[MiniAssignment](MiniAssignment/README.md)** - Mini assignments and practice problems
 
----
 
-## Quick Navigation
-
-- Use the links above to navigate to each folder's detailed README
-- Each folder contains specific implementations with explanations
-- Start with `ClassAssignment(ConditionLoops)` for basic concepts
-- Progress to `DataStructuresImplementation` for advanced topics
-- Explore `NumPy` for numerical computing examples
 

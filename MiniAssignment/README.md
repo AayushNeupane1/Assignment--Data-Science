@@ -1,19 +1,47 @@
-# MiniAssignment
+# Mini Assignment
 
-This folder is dedicated to mini assignments and practice problems for reinforcing fundamental concepts.
+This folder contains a comprehensive mini assignment notebook with foundational Python concepts and exercises.
 
-## Status
-This folder is currently empty and reserved for mini assignments and practice exercises.
+## Contents
 
-## Future Content
-- Small coding challenges
-- Practice problems
-- Quick implementation tasks
-- Concept reinforcement exercises
+### [mini assignment.ipynb](mini%20assignment.ipynb)
+A Jupyter notebook with practical exercises covering:
 
-## How to Contribute
-Add your mini assignment files here with clear naming conventions:
-- Use descriptive file names
-- Include docstrings explaining the problem
-- Keep solutions concise and well-commented
+**Mini Assignment 1: Basic Output**
+- Print full name
+- Print favorite quote
+- Multi-line string printing using `\n`
+
+**Mini Assignment 2: Variables & Data Types**
+- Variable declaration and assignment
+- String formatting (f-strings)
+- Type checking with `type()` function
+- Demonstrating different data types
+
+**Mini Assignment 3: Operators & Conditionals**
+- Arithmetic operations (addition, subtraction, multiplication)
+- Conditional statements (if-else)
+- Even/odd number checking
+- Divisibility checks
+- Logical operators (and, or)
+
+**Mini Assignment 4: Comparison & Identity**
+- List comparison
+- Identity operators (`is`)
+- Equality vs identity distinction
+
+**Mini Assignment 5+: Advanced Concepts**
+- Positive/negative/zero number checking
+- Input/output operations
+- Operator explanations (arithmetic, comparison, logical, assignment, membership, identity)
+
+## Topics Covered
+- Variables and data types (str, int, float)
+- Operators (arithmetic, comparison, logical, membership, identity)
+- Control flow (if-else statements)
+- Input/output operations
+- Type conversion
+- String formatting
+
+
 
