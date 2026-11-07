@@ -1,0 +1,7 @@
+# This project uses only the Python standard library, so there are no
+# third-party dependencies to pin. In a real data project this file would list
+# things like:
+#
+# numpy==2.2.6
+# pandas==2.2.3
+# matplotlib==3.9.2
