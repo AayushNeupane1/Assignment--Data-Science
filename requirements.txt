@@ -1,0 +1,11 @@
+# Install everything the tutorial uses:
+#   python -m venv venv
+#   venv\Scripts\activate        (Windows)   |   source venv/bin/activate  (mac/Linux)
+#   pip install -r requirements.txt
+#
+# Modules 01-08 (Python foundations) need only the standard library.
+# Modules 09-12 (data science) need these:
+numpy==2.2.6
+pandas==2.3.3
+matplotlib==3.10.9
+scikit-learn==1.5.2

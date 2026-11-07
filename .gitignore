@@ -1,0 +1,17 @@
+# virtual environment
+venv/
+.venv/
+
+# python caches
+__pycache__/
+*.pyc
+
+# generated runtime outputs (recreated when the scripts run)
+06_file_handling/data/
+08_engineering/data/
+11_statistics_viz/figures/
+
+# keep the shared dataset for modules 10-12
+!10_pandas/data/students.csv
+!11_statistics_viz/data/students.csv
+!12_intro_ml/data/students.csv
