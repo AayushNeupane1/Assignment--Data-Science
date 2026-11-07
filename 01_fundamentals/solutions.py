@@ -38,10 +38,10 @@ def count_valid(names):
 
 
 if __name__ == "__main__":
-    assert describe("Aastha", 24) == "Aastha is 24 years old"
+    assert describe("Ram", 24) == "Ram is 24 years old"
     assert even_or_odd(4) == "even" and even_or_odd(7) == "odd"
     assert sum_to(5) == 15
     assert validate_password("Nepal@2026") is True
     assert validate_password("abcdefgh") is False
-    assert count_valid(["ab", "aastha", "bad name!"]) == 1
+    assert count_valid(["ab", "ram", "bad name!"]) == 1
     print("All solutions pass.")

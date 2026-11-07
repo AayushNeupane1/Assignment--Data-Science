@@ -53,7 +53,7 @@ import csv
 with open("data/people.csv", "w", newline="") as f:
     writer = csv.writer(f)
     writer.writerow(["name", "age"])     # header
-    writer.writerow(["Aastha", 24])
+    writer.writerow(["Ram", 24])
 
 # read as dictionaries (keyed by the header row)
 with open("data/people.csv") as f:
@@ -68,7 +68,7 @@ Use `newline=""` when writing CSV so you don't get blank lines on Windows.
 ```python
 import json
 
-data = {"name": "Aastha", "skills": ["python", "sql"]}
+data = {"name": "Ram", "skills": ["python", "sql"]}
 
 with open("data/profile.json", "w") as f:
     json.dump(data, f, indent=2)          # Python object -> JSON file

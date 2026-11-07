@@ -6,14 +6,14 @@ import re
 
 
 def main():
-    text = "Contact Aastha at aastha@mail.com or call 0401-234-567 in London."
+    text = "Contact Ram at ram@example.com or call 0401-234-567 in London."
 
     # findall returns every match of a pattern
     capitalised = re.findall(r"[A-Z][a-z]+", text)
-    print("capitalised words:", capitalised)      # ['Contact', 'Aastha', 'London']
+    print("capitalised words:", capitalised)      # ['Contact', 'Ram', 'London']
 
     emails = re.findall(r"[\w.]+@[\w.]+", text)
-    print("emails           :", emails)            # ['aastha@mail.com']
+    print("emails           :", emails)            # ['ram@example.com']
 
     digits = re.findall(r"\d+", text)
     print("digit groups     :", digits)            # ['0401', '234', '567']

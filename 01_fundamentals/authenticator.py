@@ -55,12 +55,12 @@ def login(users, username, password):
 def main():
     users = {}   # username -> hashed password
 
-    print(register(users, "aastha", "Nepal@2026"))   # (True, 'Registered...')
-    print(register(users, "aastha", "Another@1"))     # taken
+    print(register(users, "ram", "Nepal@2026"))   # (True, 'Registered...')
+    print(register(users, "ram", "Another@1"))     # taken
     print(register(users, "bob", "weak"))             # weak password
 
-    print("login ok   :", login(users, "aastha", "Nepal@2026"))  # True
-    print("login wrong :", login(users, "aastha", "wrongpass"))  # False
+    print("login ok   :", login(users, "ram", "Nepal@2026"))  # True
+    print("login wrong :", login(users, "ram", "wrongpass"))  # False
     print("login ghost :", login(users, "nobody", "Nepal@2026")) # False
 
 

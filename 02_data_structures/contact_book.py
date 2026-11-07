@@ -29,9 +29,9 @@ def unique_cities(book):
 
 def main():
     book = {}
-    add_contact(book, "Aastha", "0401-111", "aastha@mail.com", "Melbourne")
-    add_contact(book, "Bob", "0402-222", "bob@mail.com", "Sydney")
-    add_contact(book, "Smriti", "0403-333", "smriti@mail.com", "Melbourne")
+    add_contact(book, "Ram", "0401-111", "ram@example.com", "Melbourne")
+    add_contact(book, "Bob", "0402-222", "ram@example.com", "Sydney")
+    add_contact(book, "Smriti", "0403-333", "ram@example.com", "Melbourne")
 
     print("All contacts:")
     for name, rec in book.items():

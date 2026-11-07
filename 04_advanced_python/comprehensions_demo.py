@@ -23,7 +23,7 @@ def main():
     print("filter even:", list(filter(lambda x: x % 2 == 0, nums)))
 
     # --- zip: pair two lists together ---
-    students = ["Aayush", "Aastha", "Smriti"]
+    students = ["Aayush", "Ram", "Smriti"]
     scores = [85, 90, 78]
     paired = list(zip(students, scores))
     print("zipped     :", paired)

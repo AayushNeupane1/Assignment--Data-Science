@@ -54,7 +54,7 @@ def _check():
         appended = f.read()
 
     with open("data/ex3.csv", "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["name"]); w.writerow(["Aastha"]); w.writerow(["Bob"])
+        w = csv.writer(f); w.writerow(["name"]); w.writerow(["Ram"]); w.writerow(["Bob"])
 
     data = {"a": 1, "b": 2}
     r4 = round_trip("data/ex4.json", data)
@@ -62,7 +62,7 @@ def _check():
     results = [
         ("ex1 write/read", r1 == "hello"),
         ("ex2 append",     appended == "helloworld\n"),
-        ("ex3 read_names", read_names("data/ex3.csv") == ["Aastha", "Bob"]),
+        ("ex3 read_names", read_names("data/ex3.csv") == ["Ram", "Bob"]),
         ("ex4 round_trip", r4 == data),
     ]
     passed = 0

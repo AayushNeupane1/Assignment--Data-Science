@@ -11,7 +11,7 @@ PATH = "data/people.csv"
 def main():
     os.makedirs("data", exist_ok=True)
 
-    rows = [("Aastha", 24, "Melbourne"),
+    rows = [("Ram", 24, "Melbourne"),
             ("Bob", 30, "Sydney"),
             ("Smriti", 27, "Melbourne")]
 

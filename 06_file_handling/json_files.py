@@ -10,7 +10,7 @@ def main():
     os.makedirs("data", exist_ok=True)
 
     profile = {
-        "name": "Aastha",
+        "name": "Ram",
         "age": 24,
         "skills": ["python", "sql", "numpy"],
     }

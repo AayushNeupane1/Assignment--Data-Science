@@ -9,7 +9,7 @@ import string
 
 
 # Exercise 1 (variables) --------------------------------------------------
-# Return a sentence like "Aastha is 24 years old" using an f-string.
+# Return a sentence like "Ram is 24 years old" using an f-string.
 def describe(name, age):
     return f"____ is ____ years old"
 
@@ -57,13 +57,13 @@ def count_valid(names):
 # ---------------------------------------------------------------------------
 def _check():
     results = [
-        ("ex1 describe",    describe("Aastha", 24) == "Aastha is 24 years old"),
+        ("ex1 describe",    describe("Ram", 24) == "Ram is 24 years old"),
         ("ex2 even",        even_or_odd(4) == "even"),
         ("ex2 odd",         even_or_odd(7) == "odd"),
         ("ex3 sum_to",      sum_to(5) == 15),
         ("ex4 strong",      validate_password("Nepal@2026") is True),
         ("ex4 weak",        validate_password("abcdefgh") is False),
-        ("ex5 count_valid", count_valid(["ab", "aastha", "bad name!"]) == 1),
+        ("ex5 count_valid", count_valid(["ab", "ram", "bad name!"]) == 1),
     ]
     passed = 0
     for name, ok in results:

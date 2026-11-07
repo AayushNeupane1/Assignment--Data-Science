@@ -3,7 +3,7 @@
 
 def main():
     # --- types ---
-    name = "Aastha"
+    name = "Ram"
     age = 24
     height = 1.63
     is_student = True

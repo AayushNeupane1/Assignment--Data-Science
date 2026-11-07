@@ -2,10 +2,10 @@
 
 
 def main():
-    student_marks = {"Aayush": 85, "Aastha": 90, "Smriti": 78, "Rohan": 69}
+    student_marks = {"Aayush": 85, "Ram": 90, "Smriti": 78, "Rohan": 69}
 
     # safe lookup
-    print("Aastha's mark:", student_marks.get("Aastha"))
+    print("Ram's mark:", student_marks.get("Ram"))
     print("Missing key  :", student_marks.get("Nobody", "n/a"))
 
     # iterate key/value pairs

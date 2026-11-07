@@ -2,7 +2,7 @@
 
 
 def main():
-    names = ["Rohan", "Aastha", "Bob", "Smriti"]
+    names = ["Rohan", "Ram", "Bob", "Smriti"]
     print("original :", names)
 
     names.append("Max")

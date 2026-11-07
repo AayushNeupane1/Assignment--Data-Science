@@ -44,10 +44,10 @@ class SavingsAccount(Account):
 
 
 def main():
-    acc = Account("Aastha", 100)
+    acc = Account("Ram", 100)
     print(acc.deposit(50)[1])      # Deposited 50. Balance: 150
     print(acc.withdraw(200)[1])    # Insufficient funds.
-    print(acc)                     # Aastha's account: 150
+    print(acc)                     # Ram's account: 150
 
     savings = SavingsAccount("Bob", 1000, rate=0.10)
     print(savings.deposit(500)[1]) # inherited method -> Balance: 1500

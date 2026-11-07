@@ -40,7 +40,7 @@ if __name__ == "__main__":
     with open("data/sol1.txt") as f:
         assert f.read() == "helloworld\n"
     with open("data/sol3.csv", "w", newline="") as f:
-        w = csv.writer(f); w.writerow(["name"]); w.writerow(["Aastha"]); w.writerow(["Bob"])
-    assert read_names("data/sol3.csv") == ["Aastha", "Bob"]
+        w = csv.writer(f); w.writerow(["name"]); w.writerow(["Ram"]); w.writerow(["Bob"])
+    assert read_names("data/sol3.csv") == ["Ram", "Bob"]
     assert round_trip("data/sol4.json", {"a": 1}) == {"a": 1}
     print("All solutions pass.")

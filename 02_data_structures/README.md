@@ -31,7 +31,7 @@ total = sum(marks)      # built-ins work on lists
 ## 2. Tuples — fixed records
 
 ```python
-employee = ("Aastha", 24, "Supervisor")   # (name, age, role)
+employee = ("Ram", 24, "Supervisor")   # (name, age, role)
 name, age, role = employee                  # unpacking
 # employee[0] = "Bob"  -> TypeError: tuples can't be changed
 ```
@@ -42,7 +42,7 @@ value with several parts.
 ## 3. Dictionaries — key → value
 
 ```python
-student = {"name": "Aastha", "mark": 90}
+student = {"name": "Ram", "mark": 90}
 student["mark"]              # 90   (look up by key)
 student["grade"] = "A"       # add / update a key
 student.get("age", "n/a")    # safe lookup with a default

@@ -19,7 +19,7 @@ class Student:
 
 
 def main():
-    s1 = Student("Aastha", [90, 85, 95])
+    s1 = Student("Ram", [90, 85, 95])
     s2 = Student("Bob", [55, 60, 65])
 
     for s in (s1, s2):

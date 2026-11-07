@@ -3,7 +3,7 @@
 
 def main():
     # a tuple is a fixed record: (name, age, position, salary)
-    employee = ("Aastha", 24, "Supervisor", 55000)
+    employee = ("Ram", 24, "Supervisor", 55000)
 
     # unpacking into named variables
     name, age, position, salary = employee

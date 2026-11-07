@@ -17,7 +17,7 @@ Files:
 A variable is a name bound to a value. Python figures out the type for you.
 
 ```python
-name = "Aastha"      # str
+name = "Ram"      # str
 age = 24             # int
 height = 1.63        # float
 is_student = True    # bool
@@ -33,7 +33,7 @@ str(42) + "!"        # "42!" (int -> str)
 **f-strings** are the modern way to build text from values:
 
 ```python
-print(f"{name} is {age} years old")   # Aastha is 24 years old
+print(f"{name} is {age} years old")   # Ram is 24 years old
 print(f"{height:.1f} m")               # 1.6 m  (formatted to 1 decimal)
 ```
 

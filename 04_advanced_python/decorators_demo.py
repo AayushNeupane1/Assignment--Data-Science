@@ -17,7 +17,7 @@ def greet(name):
 
 
 def main():
-    print(greet("aastha"))    # HI AASTHA
+    print(greet("ram"))    # HI RAM
     print(greet.__name__)     # greet  (thanks to functools.wraps)
 
 
