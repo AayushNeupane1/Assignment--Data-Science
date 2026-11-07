@@ -58,3 +58,14 @@ python solutions.py         # the reference answers
 ```
 
 Work the modules in order — each assumes the ones before it.
+
+## Applied projects
+
+After the lessons, `projects/` holds small end-to-end programs that *apply* what
+the modules teach. Unlike the lesson code these are interactive / use live data.
+
+| Project | Applies | Run |
+|---------|---------|-----|
+| `projects/number_guessing` | Module 01 (loops, conditionals, random) | `python game.py` |
+| `projects/rock_paper_scissors` | Modules 07–08 (modules, structure) | `python main.py` |
+| `projects/temperature_forecaster` | Modules 05 & 07 (errors, `requests`, APIs) | `python main.py` |
