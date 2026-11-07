@@ -29,19 +29,33 @@ def spread(series):
 
 # Exercise 4 --------------------------------------------------------------
 # Which chart answers "is there a relationship between two variables"?
-# Return the matplotlib function name as a string: "hist", "boxplot" or "scatter".
+# Return "hist", "boxplot" or "scatter".
 def chart_for_relationship():
     return "____"
+
+
+# Exercise 5 (IQR outliers) -----------------------------------------------
+# Return the (lower, upper) outlier fences using the 1.5*IQR rule.
+def iqr_bounds(series):
+    q1 = series.quantile(0.25)
+    q3 = series.quantile(____)        # the 75th percentile
+    iqr = q3 - q1
+    lower = q1 - 1.5 * iqr
+    upper = q3 ____ 1.5 * iqr          # upper fence is Q3 PLUS 1.5*IQR
+    return lower, upper
 
 
 # ---------------------------------------------------------------------------
 def _check():
     import math
+    s = pd.Series([10, 12, 13, 12, 11, 100])   # 100 is the outlier
+    lo, hi = iqr_bounds(s)
     results = [
         ("ex1 mean",   math.isclose(average(scores), scores.mean())),
         ("ex2 median", math.isclose(middle(scores), scores.median())),
         ("ex3 std",    math.isclose(spread(scores), scores.std())),
         ("ex4 chart",  chart_for_relationship() == "scatter"),
+        ("ex5 iqr",    100 > hi and 10 >= lo),   # 100 is flagged, 10 is not
     ]
     passed = 0
     for name, ok in results:
